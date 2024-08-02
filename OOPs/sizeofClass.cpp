@@ -22,7 +22,7 @@ class Student{
 int main()
 {
     Student s1;
-    cout<<sizeof(Student)<<endl;
+    cout<<"Size of student is : "<<sizeof(Student)<<endl;
 
     return 0;
 }
