@@ -16,9 +16,7 @@ void reversearray(int arr[], int n, int i){
         s++;
         e--;
     }
-    cout<<arr[i];
-    
-    
+       
 }
 
 int main()
@@ -27,6 +25,10 @@ int main()
     int n = 3;
     int i = 0;
     reversearray(arr, n, i);
+
+    for(int i = 0; i < n; i++){
+        cout<<arr[i]<<" ";
+    }
 
     return 0;
 }
